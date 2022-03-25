@@ -1,6 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Lato:wght@400;700&family=Poppins&family=Roboto:wght@300;400;500;700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: inherit;
+    border: 0 solid #e5e7eb;
+    font-family: 'inter', sans-serif;
+}
+
+.app{
+    min-height: 100vh;
+    color: rgba(36,62,99,1);
+    padding: 32px;
+    overflow: hidden;
+}
+
+.light__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav__link{
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__link{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    border-bottom-width: 0px;
+    font-size: 1.5rem !important;
+    margin-left: 0px !important;
+}
+
+.img__logo{
+    width: 40px;
+    margin-right: 12px;
+}
+
+.nav__links{
+    display: flex;
+    font-size: 14px;
+    margin: 0 24px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.link{
+    font-size: 14px;
+    margin: 0 24px;
+    text-decoration: none;
+    color: ;
+}
+
+.login__link{
+    margin-left: 24px !important;
+}
+
+.sign-up__link{
+    border-radius: 24px;
+    padding: 12px 32px;
+    background-color: rgb(100, 21, 255);
+    color: rgb(247, 250, 252);
+    border-bottom-width: 0px;
 }
