@@ -7,25 +7,23 @@
     font-family: 'inter', sans-serif;
 }
 
-.app{
-    min-height: 100vh;
-    color: rgba(36,62,99,1);
+.purple{
+    color: rgb(100, 21, 255);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 32px;
     overflow: hidden;
 }
 
-.light__header{
+.nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.nav__link{
-    display: flex;
-    flex: 1 1 0%;
     justify-content: space-between;
     align-items: center;
 }
@@ -56,7 +54,7 @@
     font-size: 14px;
     margin: 0 24px;
     text-decoration: none;
-    color: ;
+
 }
 
 .login__link{
@@ -69,4 +67,25 @@
     background-color: rgb(100, 21, 255);
     color: rgb(247, 250, 252);
     border-bottom-width: 0px;
+}
+
+/* 2 COLUMNS */
+
+.left__column{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    text-align: left;
+    padding: 6px 0;
+}
+
+.heading{
+    font-size: 46px;
+}
+
+.left__column--para{
+    font-size: 16px;
+    margin: 32px 0;
+    font-weight: 400;
 }
